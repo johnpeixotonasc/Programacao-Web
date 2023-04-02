@@ -1,3 +1,10 @@
+/*
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: John Peixoto / 1820228
+DATA 17/03/2023
+*/
+
 function bubbleSort(arr) {
     let len = arr.length;
     for (let i = 0; i < len; i++) {
