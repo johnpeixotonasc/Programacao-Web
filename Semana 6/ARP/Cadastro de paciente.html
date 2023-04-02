@@ -1,0 +1,105 @@
+<!--
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: John Peixoto do Nascimento - 1820228
+DATA: 02/04/2023
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Pacientes</title>
+  <!-- Importação do CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Pacientes</h1>
+    <form>
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" id="nome" placeholder="Digite o nome completo">
+      </div>
+      <label class="form-group">
+        <label for="data_nascimento">Data de Nascimento</label>
+        <input type="date" class="form-control" id="data_nascimento">
+      </label>
+      <label class="form-group">
+        <label for="cpf">CPF</label>
+        <input type="text" class="form-control" id="cpf" placeholder="Digite o CPF">
+      </label>
+      <label class="form-group">
+        <label for="telefone">Telefone</label>
+        <input type="text" class="form-control" id="telefone" placeholder="Digite o telefone">
+      </label>
+      <div class="btn-group" data-toggle="buttons">
+        <label class="btn btn-secondary">
+          <input type="radio" name="sexo" value="masculino"> Masculino
+        </label>
+        <label class="btn btn-secondary">
+          <input type="radio" name="sexo" value="feminino"> Feminino
+        </label>
+      </div>      
+      <label class="form-group">
+        <label for="tipo-sanguineo">Tipo Sanguíneo:</label>
+        <select class="form-control" id="tipo-sanguineo">
+          <option value="">Selecione...</option>
+          <option value="A+">A+</option>
+          <option value="A-">A-</option>
+          <option value="B+">B+</option>
+          <option value="B-">B-</option>
+          <option value="AB+">AB+</option>
+          <option value="AB-">AB-</option>
+          <option value="O+">O+</option>
+          <option value="O-">O-</option>
+        </select>
+      </label>      
+      <div class="form-group">
+        <label for="Nome da mãe">Nome da mãe</label>
+        <input type="text" class="form-control" id="Nome da mãe" placeholder="Digite o Nome da mãe">
+      </div>
+      <div class="form-group">
+        <label for="Nome do pai">Nome do pai</label>
+        <input type="text" class="form-control" id="Nome do pai" placeholder="Digite o Nome do pai">
+      </div>
+      <div class="form-group">
+        <label for="endereco">Endereço</label>
+        <input type="text" class="form-control" id="endereco" placeholder="Digite o endereço completo">
+      </div>
+      
+      <h4>Insira dados do endereço do paciente</h4>
+      <label class="form-group">
+        <label for="cep">CEP</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="cep" placeholder="Digite o CEP">
+        </div>
+      </label>     
+      <label class="form-group">
+        <label for="Rua">Rua</label>
+        <input type="text" class="form-control" id="Rua" placeholder="Digite o nome da rua">
+      </label>
+      <label class="form-group">
+        <label for="Bairro">Bairro</label>
+        <input type="text" class="form-control" id="Bairro" placeholder="Digite o nome do Bairro">
+      </label>
+      <label class="form-group">
+        <label for="Número da casa">Número da casa</label>
+        <input type="number" class="form-control" id="Número da casa" placeholder="Digite o Número da casa">
+      </label>
+      <label class="form-group">
+        <label for="Ponto de referência">Ponto de referência</label>
+        <input type="text" class="form-control" id="Ponto de referência" placeholder="Digite o nome da Ponto de referência">
+      </label>
+      <div>
+      <a href="Agendamento de consultas.html" class="btn btn-primary">Agendar Consulta</a>
+      </div>
+    </form>
+  </div>
+
+  <!-- Importação do JavaScript do Bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
