@@ -1,0 +1,87 @@
+<!--
+Curso de Engenharia de Software - UniEVANGÉLICA 
+Disciplina de Programação Web 
+Dev: John Peixoto do Nascimento - 1820228
+DATA: 14/03/2023
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>MyPet</title>
+	<style>
+		h1 {
+			color: rgb(159, 159, 212); <!-- Cor do texto -->
+			font-family: Arial, sans-serif;
+		}
+		p {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+		ul {
+			list-style-type: square;
+		}
+		a {
+			color: rgb(161, 180, 190);
+			text-decoration: none;
+		}
+	</style>
+	<style>
+		body {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+	</style>
+</head>
+<body>
+	<img src="MyPet - LOGO.png">
+	<h1>MyPet</h1>
+	<!-- Adicionando um formulário -->
+	<form action="#" method="GET">
+		<h4>Primeiro Alguns dados seu:</h4>
+		<div for="nome">Nome Completo:</div>
+		<input type="text" id="nome" name="nome" required>
+		
+		<label for="nome">E-mail:</label>
+		<input type="text" id="nome" name="nome" required>
+		
+		<div for="nome">Senha:</div>
+		<input type="text" id="nome" name="nome" required>
+
+		<label for="nome">Confirme sua Senha:</label>
+		<input type="text" id="nome" name="nome" required>
+
+		<h4>Agora alguns dados do seu Pet:</h4>
+		<div for="email">Raça:</div>
+		<input type="email" id="email" name="email" required>
+
+		<label for="idade">Idade:</label>
+		<input type="number" id="idade" name="idade" min="0" max="120" required>
+
+		<div for="sexo">Sexo:</div>
+		<input type="radio" id="sexo-m" name="sexo" value="m" required>
+		<label for="sexo-m">Masculino</label>
+		<input type="radio" id="sexo-f" name="sexo" value="f" required>
+		<label for="sexo-f">Feminino</label>
+
+		<div for="pet">Selecione o tipo de pet:</div>
+		<select id="pet" name="pet">
+			<option value="cachorro">Cachorro</option>
+			<option value="gato">Gato</option>
+			<option value="outro">Cobra</option>
+            <option value="outro">Pássaro</option>
+            <option value="outro">Lagarto</option>
+            <option value="outro">Outro</option>
+		</select>
+
+		<div for="mensagem">Mensagem:</div>
+		<textarea id="mensagem" name="mensagem"></textarea>
+        <input type="submit" value="Salvar meus dados">
+	</form>
+    <a href="Exercício Semana 1 - Arquivo 1 (TELA INICIAL).html">Voltar</a>
+</body>
+</html>
