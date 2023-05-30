@@ -1,0 +1,5 @@
+Pet (animal de estimação) e Dono: Cada pet possui um dono responsável por ele. Esse relacionamento pode ser representado por uma chave estrangeira na tabela Pet, referenciando a tabela Dono.
+
+Pet (animal de estimação) e Vacina: Cada pet pode ter uma ou várias vacinas registradas. Esse relacionamento pode ser representado por uma tabela de associação, onde são armazenados os registros das vacinas aplicadas em cada pet.
+
+Pet (animal de estimação) e Consulta: Cada pet pode ter uma ou várias consultas registradas. Esse relacionamento também pode ser representado por uma tabela de associação, onde são armazenados os registros das consultas realizadas para cada pet.
