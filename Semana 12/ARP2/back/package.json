@@ -1,0 +1,24 @@
+{
+  "name": "patient-register",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "prod": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John John",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "react-router-dom": "^6.14.1",
+    "sequelize": "^6.31.1",
+    "sqlite3": "^5.1.6"
+  }
+}
